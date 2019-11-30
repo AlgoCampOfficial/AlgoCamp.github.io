@@ -1,0 +1,118 @@
+
+
+.clickme 
+{
+    background-color: #ffffff;
+
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    font-size: 16px;
+    border: none;
+    top: 10000;
+}
+
+.overlay {
+    height: 0%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   background: url('BACKGROUNDS/SIGN-UP.png') no-repeat; 
+background-size: 800px;
+background-position: center;
+  height: 500px;
+
+
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+transition: 0.5s;
+}
+
+
+.overlay a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: inline;
+    transition: 0.5s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+
+
+.overlay .closebtn {
+    position: absolute;
+    bottom: 20px;
+    center: 45px;
+    font-size: 30px;
+}
+
+
+.SELECTSPORTSC_1 {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.SELECTSPORTSC_2:hover, .SELECTSPORTSC_2:focus {
+    color: #f1f1f1;
+}
+
+.SELECTSPORTSCCLOSE {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.overlay-content-text {
+    position: center;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+	color: white;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+@media screen and (max-height: 450px) {
+  .SELECTSPORTSC_1 {overflow-y: auto;}
+  .SELECTSPORTSC_2 {font-size: 20px}
+  .SELECTSPORTSCCLOSE {
+    font-size: 1px;
+    top: 15px;
+    right: 35px;
+  }
+}

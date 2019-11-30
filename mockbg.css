@@ -1,0 +1,19 @@
+body {font-family: Verdana, sans-serif; margin:0}
+
+
+.fifthbgg {
+  background: url('BACKGROUNDS/header.png');
+  height: 700px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+}
+
+
+
+
+table.navigation {
+width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+}

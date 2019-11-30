@@ -1,0 +1,140 @@
+hr {
+	width: 90%;
+}
+
+.highlights {
+	background-color: #8d13fe;
+	background-size: cover;
+	position: relative;
+	height: 700px;
+}
+
+.highlightstd {
+	font-size: 3em;
+	height: 110px;
+	width: 95%;
+	color: #dfba28;
+	border-right: 0px solid #dfba28;
+}
+
+p.highlights {
+	font-size: 60px;
+	color: #dfba28;
+}
+
+.video1 {
+  background-color: #dfba28;
+  position: absolute;
+  bottom: 0;
+  left:0 ;
+  right: 0;
+  top: 0;
+  margin-top: 220px;
+  margin-bottom: 110px;
+  margin-left: 120px;
+  margin-right: auto;
+  width: 35%;
+  height: 25%;
+  border: #dfba28;
+  padding: 10px;
+}
+
+.video2 {
+  background-color: #dfba28;
+  position: absolute;
+  bottom: 0;
+  left:0 ;
+  right: 0;
+  top: 0;
+  margin-top: 220px;
+  margin-bottom: 110px;
+  margin-left: 680px;
+  margin-right: auto;
+  width: 35%;
+  height: 25%;
+  border: #dfba28;
+  padding: 10px;
+}
+
+.vidtitle1 {
+  background-color: #dfba28;
+  position: absolute;
+  bottom: 0;
+  left:0 ;
+  right: 0;
+  top: 0;
+  margin-top: 520px;
+  margin-bottom: 120px;
+  margin-left: 143px;
+  margin-right: auto;
+  width: 33%;
+  height: 25px;
+  padding: 10px 0 0 0 ;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+.vidtitle2 {
+  background-color: #dfba28;
+  position: absolute;
+  bottom: 0;
+  left:0 ;
+  right: 0;
+  top: 0;
+  margin-top: 520px;
+  margin-bottom: 120px;
+  margin-left: 704px;
+  margin-right: auto;
+  width: 33%;
+  height: 25px;
+  padding: 10px 0 0 0 ;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+.dividerhr {
+  background-color: white;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left:0 ;
+  right: 0;
+  top: 0;
+  margin-top: 630px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+}
+
+.events {
+  background-color: #dfba28;
+  position: absolute;
+  bottom: 0;
+  left:0 ;
+  right: 0;
+  top: 0;
+  margin-top: 690px;
+  margin-bottom: 110px;
+  margin-right: auto;
+  width: 50%;
+  height: 30%;
+}
+
+.upevents {
+  background: url('BACKGROUNDS/upcoming.png') no-repeat center;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  margin-top: 690px;
+  margin-bottom: 110px;
+  width: 50%;
+  height: 30%;
+}

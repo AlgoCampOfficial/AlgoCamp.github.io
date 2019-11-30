@@ -1,0 +1,45 @@
+.videos {
+	background-color: white;
+	background-size: cover;
+	position: relative;
+	height: 800px;
+}
+
+.videosholder {
+  background-size: cover;
+  height: 700px;
+  position: relative;
+  color: #dfba28;
+}
+
+.videos1 {
+    position: absolute;
+    bottom: 0;
+    left:0 ;
+    right: 0;
+    top: 0;
+    margin-top: 0px;
+    margin-bottom: 110px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 60%;
+    height: 70%;
+    border: #dfba28;
+    padding: 0px;
+  }
+  
+  .videos2 {
+    position: absolute;
+    bottom: 0;
+    left:0 ;
+    right: 0;
+    top: 0;
+    margin-top: 0px;
+    margin-bottom: 110px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 60%;
+    height: 70%;
+    border: #dfba28;
+    padding: 0px;
+  }

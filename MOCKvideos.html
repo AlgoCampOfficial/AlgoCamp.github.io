@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<link rel="shortcut icon" href="HAC/MOCK.ico">
+<head>
+
+  <link rel="stylesheet" href="mockbg.css">
+  <link rel="stylesheet" href="MOCKnavigator.css">
+  <link rel="stylesheet" href="MOCKSlideShowVideos.css">
+  <link rel="stylesheet" href="hyperlinks.css">
+  <link rel="stylesheet" href="aligntag.css">
+  <link rel="stylesheet" href="MOCKbgs.css">
+
+
+
+
+  <link rel="stylesheet" href="MOCKfooter.css">
+  <link rel="stylesheet" href="MOCKtext.css">
+  <link rel="stylesheet" href="MOCKp3-button.css">
+  <link rel="stylesheet" href="MOCKvideos.css">
+
+  <title>
+    Algo Camp | Learn
+  </title>
+
+</head>
+
+
+<body bgcolor = #ffffff>
+  
+  
+  <!-- PANEL 1 / HEADER -->
+  <div class="fifthbgg"> 
+      <br>
+      <div class = "MOCKnavigator">
+        <ul>
+          <li><a href="MOCK.html" class="effect-shine">HOME</a></li>
+          <li><a href="MOCKabout.html#welcome_about" class="effect-shine">ABOUT</a></li>
+          <li><a href="MOCKlearn.html#map_learn" class="effect-shine">LEARN</a></li>
+          <li><a href="MOCKvideos.html#panel_videos" class="effect-shine">VIDEOS</a></li>
+          <li><a href="MOCKtrain.html#welcome_train" class="effect-shine">TRAIN</a></li>
+        </ul>
+      </div>
+  
+  </div>
+
+
+
+  <div class="panelVideos" id = "panel_videos">
+
+  </div>
+  
+
+
+<!-- PANEL 2 -->
+<div class="slideshow-container">
+
+  <!-- SLIDE 1 -->
+  <div class="mySlides fade">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <center>
+        <p style = "position: absolute; top: 20%; left: 22%; width:700px; font-size: 15px; color: #ffffff; font-weight: 900; padding: 10px;">EVEN / ODD ALGORITHM</p>
+      <video width="800" controls>
+        <source src="HAC/ODD-EVEN.mp4" type="video/mp4">
+      </video>
+    </center> 
+  </div>
+
+  <!-- SLIDE 1 -->
+  <div class="mySlides fade">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <center>
+          <p style = "position: absolute; top: 20%; left: 22%; width:700px; font-size: 15px; color: #ffffff; font-weight: 900; padding: 10px;">PRIME OR NOT ALGORITHM</p>
+        <video width="800" controls>
+          <source src="HAC/PRIME-OR-NOT.mp4" type="video/mp4">
+        </video>
+      </center> 
+    </div>
+
+  <!-- SLIDE 1 -->
+  <div class="mySlides fade">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <center>
+          <p style = "position: absolute; top: 20%; left: 22%; width:700px; font-size: 15px; color: #ffffff; font-weight: 900; padding: 10px;">ADD TWO NUMBERS ALGORITHM</p>
+        <video width="800" controls>
+          <source src="HAC/ADD-TWO-NUMBERS.mp4" type="video/mp4">
+        </video>
+      </center> 
+    </div>
+
+  <!-- SLIDE 1 -->
+  <div class="mySlides fade">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <center>
+          <p style = "position: absolute; top: 20%; left: 22%; width:700px; font-size: 15px; color: #ffffff; font-weight: 900; padding: 10px;">FACTORIAL ALGORITHM</p>
+        <video width="800" controls>
+          <source src="HAC/FACTORIAL.mp4" type="video/mp4">
+        </video>
+      </center> 
+    </div>
+
+    <!-- SLIDE 1 -->
+  <div class="mySlides fade">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <center>
+          <p style = "position: absolute; top: 20%; left: 22%; width:700px; font-size: 15px; color: #ffffff; font-weight: 900; padding: 10px;">LARGEST NUMBER ALGORITHM</p>
+        <video width="800" controls>
+          <source src="HAC/LARGEST-NUMBER.mp4" type="video/mp4">
+        </video>
+      </center> 
+    </div>
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <!-- PANEL 2 | SLIDE SCRIPT -->
+  <script>
+ 
+  var slideIndex = 1;
+	Panel2(slideIndex);
+
+	function plusSlides(n) {
+      Panel2(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+	  Panel2(slideIndex = n);
+	}
+
+  function Panel2(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) {slideIndex = 1}    
+	  if (n < 1) {slideIndex = slides.length}
+    
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    
+    if (slideIndex > slides.length) {slideIndex = 1}    
+
+    slides[slideIndex-1].style.display = "block";   
+  }
+  </script>
+    
+  
+    <div class="lastbg">
+   
+    
+	
+        <div class = "footerDescription">© ALGO CAMP 2019</div>
+        <div class = "footerDisclaimer">ALGO CAMP IS  A PROJECT, BRINGING INFORMATION AND ASSESSMENT FROM THE CAMP AND ITS PARTNERS.</div>
+  
+</div>
+
+</body>
+</html>

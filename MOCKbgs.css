@@ -1,0 +1,224 @@
+/*header*/
+.firstbg {
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  color: #dfba28;
+}
+
+ /*footer*/
+.lastbg {
+  background: url('BACKGROUNDS/panel6.png') no-repeat center; 
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  color: #e9eeee;
+  font-size: 20px;
+}
+
+.panel4 {
+  background: url('BACKGROUNDS/panel4.gif') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+  color: #dfba28;
+}
+
+.panel5th {
+  background: url('BACKGROUNDS/panel5.gif') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+  color: #dfba28;
+}
+
+
+/*locator*/
+.panel5 {
+  background: url('BACKGROUNDS/panel5.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.panel3 {
+  background: url('BACKGROUNDS/panel3.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.panel51 {
+  background: url('BACKGROUNDS/panel7.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.panel7 {
+  background: url('BACKGROUNDS/LEARN.png');
+  height: 2080px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+}
+
+.panellearn1 {
+  background: url('BACKGROUNDS/panellearn1.png');
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+
+.panellearn2 {
+  background: url('BACKGROUNDS/panellearn2.png');
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+
+.panellearn3 {
+  background: url('BACKGROUNDS/panellearn3.png');
+  background-size: cover;
+  height: 700px;
+  position: relative;
+}
+
+.panellearn4 {
+  background: url('BACKGROUNDS/panellearn4.png');
+  background-size: cover;
+  height: 700px;
+  position: relative;
+}
+
+
+
+/* CHARACTERISTICS OF AN ALGORITHM */
+.panellearn6 {
+  background: url('BACKGROUNDS/panellearn6.png');
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+
+.char1 {
+  background: url('BACKGROUNDS/char1.png');
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+
+.char2 {
+  background: url('BACKGROUNDS/char2.png');
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+
+.char3 {
+  background: url('BACKGROUNDS/char3.png');
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+
+.char4 {
+  background: url('BACKGROUNDS/char4.png');
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+
+
+.char5 {
+  background: url('BACKGROUNDS/char5.png');
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+
+.char6 {
+  background: url('BACKGROUNDS/char6.png');
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+
+
+
+/* HOW TO DESIGN AN ALGORITHM */
+.panellearn10 {
+  background: url('BACKGROUNDS/panellearn10.png');
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+
+.da1 {
+  background: url('BACKGROUNDS/da1.png');
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+
+.da2{
+  background: url('BACKGROUNDS/da2.png');
+  height: 3080px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+}
+
+.da2Step{
+  background: url('BACKGROUNDS/stepBG.png');
+  height: 430px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+}
+
+.da2Stepp{
+  background: url('BACKGROUNDS/stepBG.png');
+  height: 700px; 
+  width: 740px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+}
+
+.da3 {
+  background: url('BACKGROUNDS/da3.png');
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+
+
+/* ABOUT */
+.panelAbout {
+  background: url('BACKGROUNDS/about.gif') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+
+.panelAboutInfo {
+  background: url('BACKGROUNDS/aboutInfo.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+
+/* ABOUT */
+.panelVideos {
+  background: url('BACKGROUNDS/videospanel.png');
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+}
+
+
+

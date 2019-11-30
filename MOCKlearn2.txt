@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<link rel="shortcut icon" href="HAC/MOCK.ico">
+<head>
+
+  <link rel="stylesheet" href="mockbg.css">
+  <link rel="stylesheet" href="MOCKnavigator.css">
+  <link rel="stylesheet" href="article.css">
+  <link rel="stylesheet" href="hyperlinks.css">
+  <link rel="stylesheet" href="aligntag.css">
+  <link rel="stylesheet" href="MOCKbgs.css">
+
+
+
+
+  <link rel="stylesheet" href="MOCKfooter.css">
+  <link rel="stylesheet" href="MOCKtext.css">
+  <link rel="stylesheet" href="MOCKp3-button.css">
+  <link rel="stylesheet" href="MOCKvideos.css">
+
+  <title>
+    Algo Camp | Videos
+  </title>
+
+</head>
+
+
+<body bgcolor = #ffffff>
+  
+  
+  <!-- PANEL 1 / HEADER -->
+  <div class="fifthbgg"> 
+    <br>
+    <div class = "MOCKnavigator">
+      <ul>
+        <li><a href="MOCK.html" class="effect-shine">HOME</a></li>
+        <li><a href="about.html" class="effect-shine">ABOUT</a></li>
+        <li><a href="MOCKlearn.html#map_learn" class="effect-shine">LEARN</a></li>
+        <li><a href="MOCKvideos.html" class="effect-shine">VIDEOS</a></li>
+        <li><a href="MOCKtrain.html#welcome_train" class="effect-shine">TRAIN</a></li>
+      </ul>
+    </div>
+
+  </div>
+  
+  <div class = "videosholder" id = "welcome_train">
+
+
+  <div class="videos1">
+    <video autoplay muted loop width="1263">
+        <source src="BACKGROUNDS/TRAIN.mp4" type="video/mp4">
+    </video>
+     </div>
+
+
+  </div>
+
+    <div class="panel5">
+
+    </div>
+  
+    <div class="lastbg">
+   
+    
+	
+        <div class = "footerDescription">© ALGO CAMP 2019</div>
+        <div class = "footerDisclaimer">ALGO CAMP IS  A PROJECT, BRINGING INFORMATION AND ASSESSMENT FROM THE CAMP AND ITS PARTNERS.</div>
+  
+</div>
+
+</body>
+</html>
