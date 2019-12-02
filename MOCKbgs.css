@@ -33,7 +33,16 @@
 }
 
 
-/*locator*/
+/*info vid/ commercial*/
+.panelinfovid {
+  background: url('BACKGROUNDS/infovid.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+
+/*general white panel*/
 .panel5 {
   background: url('BACKGROUNDS/panel5.png') no-repeat center; 
   background-size: cover;
@@ -55,13 +64,39 @@
   position: relative;
 }
 
-.panel7 {
-  background: url('BACKGROUNDS/LEARN.png');
-  height: 2080px; 
-  background-position: center; 
-  background-repeat: no-repeat; 
- background-size: cover;
+
+
+/*general white panel*/
+.LEARNpanel {
+  background: url('BACKGROUNDS/LEARNPANEL.gif') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
 }
+
+.LEARNpanel1 {
+  background: url('BACKGROUNDS/LEARNPANEL1.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.LEARNpanel2 {
+  background: url('BACKGROUNDS/LEARNPANEL2.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.LEARNpanel3 {
+  background: url('BACKGROUNDS/LEARNPANEL3.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+
+
 
 .panellearn1 {
   background: url('BACKGROUNDS/panellearn1.png');
@@ -204,7 +239,7 @@
 
 
 .panelAboutInfo {
-  background: url('BACKGROUNDS/aboutInfo.png') no-repeat center; 
+  background: url('BACKGROUNDS/ABOUTnew.png') no-repeat center; 
   background-size: cover;
   height: 800px;
   position: relative;
