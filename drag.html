@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Drop and Drag Game</title>
+</head>
+<body>
+    <style>
+        .box001 {
+            float: left;
+            width: 75px;
+            height: 15px;
+            margin: 12px;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        .box002 {
+            float: left;
+            width: 75px;
+            height: 15px;
+            margin: 12px;
+            padding: 10px;
+            border: 1px solid white;
+        }
+    </style>
+    <p>Score: <text id="score001">0</text></p>
+
+    <div class="box002" ondrop="drop001(event)">
+        <text ondragstart="dragStart001(event)" draggable="true" id="target001">Jerusalem</text>
+    </div>
+
+    <div class="box002" ondrop="drop002(event)">
+        <text ondragstart="dragStart002(event)" draggable="true" id="target002">Amman</text>
+    </div>
+
+    <div class="box002" ondrop="drop003(event)">
+        <text ondragstart="dragStart003(event)" draggable="true" id="target003">London</text>
+    </div>
+
+    <div class="box002" ondrop="drop004(event)">
+        <text ondragstart="dragStart004(event)" draggable="true" id="target004">Brasilia</text>
+    </div>
+
+    <div class="box002" ondrop="drop005(event)">
+        <text ondragstart="dragStart005(event)" draggable="true" id="target005">Ottawa</text>
+    </div>
+    <br /><br /><br /><br />
+
+    <div class="box001" ondrop="drop006(event)" ondragover="allowDrop001(event)" id="place001">Palestine</div>
+
+    <div class="box001" ondrop="drop007(event)" ondragover="allowDrop002(event)" id="place002">Jordan</div>
+
+    <div class="box001" ondrop="drop008(event)" ondragover="allowDrop003(event)" id="place003">UK</div>
+
+    <div class="box001" ondrop="drop009(event)" ondragover="allowDrop004(event)" id="place004">Brazil</div>
+
+    <div class="box001" ondrop="drop010(event)" ondragover="allowDrop005(event)" id="place005">Canada</div><br /><br /><br />
+    
+    <button onclick="submit001()">Submit</button>
+    <p id="message001"></p>
+
+    <script>
+    var b = 0;
+    b++;
+function dragStart001(event) {
+    event.dataTransfer.setData("choice001", event.target.id);
+}
+
+function dragStart002(event) {
+    event.dataTransfer.setData("choice002", event.target.id);
+}
+
+function dragStart003(event) {
+    event.dataTransfer.setData("choice003", event.target.id);
+}
+
+function dragStart004(event) {
+    event.dataTransfer.setData("choice004", event.target.id);
+}
+
+function dragStart005(event) {
+    event.dataTransfer.setData("choice005", event.target.id);
+}
+
+function allowDrop001(event) {
+    event.preventDefault();
+}
+
+function allowDrop002(event) {
+    event.preventDefault();
+}
+
+function allowDrop003(event) {
+    event.preventDefault();
+}
+
+function allowDrop004(event) {
+    event.preventDefault();
+}
+
+function allowDrop005(event) {
+    event.preventDefault();
+}
+
+function drop006(event) {
+    var data = event.dataTransfer.getData("choice001");
+    event.target.appendChild(document.getElementById(data));
+score001.innerHTML = b++;
+        place001.innerHTML = "Jerusalem";
+}
+
+function drop007(event) {
+    var data = event.dataTransfer.getData("choice002");
+    event.target.appendChild(document.getElementById(data));
+score001.innerHTML = b++;
+        place002.innerHTML = "Amman";
+}
+
+function drop008(event) {
+    var data = event.dataTransfer.getData("choice003");
+    event.target.appendChild(document.getElementById(data));
+score001.innerHTML = b++;
+        place003.innerHTML = "London";
+}
+
+function drop009(event) {
+    var data = event.dataTransfer.getData("choice004");
+    event.target.appendChild(document.getElementById(data));
+score001.innerHTML = b++;
+        place004.innerHTML = "Brasilia";
+}
+
+function drop010(event) {
+    var data = event.dataTransfer.getData("choice005");
+    event.target.appendChild(document.getElementById(data));
+score001.innerHTML = b++;
+        place005.innerHTML = "Ottawa";
+}
+
+function drop001(event) {
+    event.preventDefault();
+}
+
+function drop002(event) {
+    event.preventDefault();
+}
+
+function drop003(event) {
+    event.preventDefault();
+
+}
+
+function drop004(event) {
+    event.preventDefault();
+}
+
+function drop005(event) {
+    event.preventDefault();
+}
+
+function submit001() {
+if (b > 5) {
+message001.innerHTML = "Congratulations.";
+}
+}
+    </script>
+</body>
+</html>

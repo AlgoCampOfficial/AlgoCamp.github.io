@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<link rel="shortcut icon" href="HAC/MOCK.ico">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mockbg.css">
+  <link rel="stylesheet" href="MOCKnavigator.css">
+  <link rel="stylesheet" href="MOCKSlideShow.css">
+  <link rel="stylesheet" href="hyperlinks.css">
+  <link rel="stylesheet" href="aligntag.css">
+  <link rel="stylesheet" href="MOCKbgs.css">
+  <link rel="stylesheet" href="MOCKhighlights.css">
+  <link rel="stylesheet" href="MOCKbutton.css">
+  <link rel="stylesheet" href="MOCKform.css">
+  <link rel="stylesheet" href="MOCKfooter.css">
+  <link rel="stylesheet" href="MOCKtext.css">
+  <link rel="stylesheet" href="MOCKp3-button.css">
+  <link rel="stylesheet" href="MOCKvideos.css">
+  <link rel="stylesheet" href="MOCKinfoVideoSpan.css">
+  <link rel="stylesheet" href="MOCKtrainButtons.css">
+
+  <title>
+    Algo Camp
+  </title>
+
+</head>
+
+
+  <title>
+    Algo Camp | Characteristics of an Algorithm
+  </title>
+
+</head>
+
+
+<body bgcolor = #ffffff>
+  
+ <!-- PANEL 1 / HEADER -->
+ <div class="fifthbgg"> 
+  <br>
+  <div class = "MOCKnavigator">
+    <ul>
+      <li><a href="index.html" class="effect-shine">HOME</a></li>
+        <li><a href="MOCKabout.html#welcome_about" class="effect-shine">ABOUT</a></li>
+        <li><a href="MOCKlearn.html#map_learn" class="effect-shine">LEARN</a></li>
+        <li><a href="MOCKvideos.html#panel_videos" class="effect-shine">VIDEOS</a></li>
+        <li><a href="MOCKtrain.html#welcome_train" class="effect-shine">TRAIN</a></li>
+    </ul>
+  </div>
+
+</div>
+
+    <div class="T2"  id = "main">
+    
+        <section class="buttons">
+            <div class="container">
+
+        <div class="btn btn-5" style = "position:absolute; right:24%; top:25%;" ondrop="drop001(event)">
+            <text ondragstart="dragStart001(event)" draggable="true" id="target001">&nbsp;&nbsp;START&nbsp;&nbsp;</text>
+        </div>
+    
+        <div class="btn btn-5" style = "position:absolute; right:15%; top:45%;" ondrop="drop002(event)">
+            <text ondragstart="dragStart002(event)" draggable="true" id="target002">&nbsp;&nbsp;&nbsp;&nbsp;Input temperature in Fahrenheit say F&nbsp;&nbsp;&nbsp;&nbsp;</text>
+        </div>
+    
+        <div class="btn btn-5" style = "position:absolute; right:19%; top:65%;" ondrop="drop003(event)">
+            <text ondragstart="dragStart003(event)" draggable="true" id="target003">&nbsp;&nbsp;&nbsp;&nbsp;C = 9.0 / 5.0 (F - 32)&nbsp;&nbsp;&nbsp;&nbsp;</text>
+        </div>
+    
+        <div class="btn btn-5" style = "position:absolute; right:16%; top:35%;" ondrop="drop004(event)">
+            <text ondragstart="dragStart004(event)" draggable="true" id="target004">&nbsp;&nbsp;&nbsp;&nbsp;Display Temperature in Celsius C&nbsp;&nbsp;&nbsp;&nbsp;</text>
+        </div>
+    
+        <div class="btn btn-5" style = "position:absolute; right:24%; top:55%;" ondrop="drop005(event)">
+            <text ondragstart="dragStart005(event)" draggable="true" id="target005">&nbsp;&nbsp;&nbsp;&nbsp;STOP&nbsp;&nbsp;&nbsp;&nbsp;</text>
+        </div>
+
+        <div class="btn btn-5" style = "position:absolute; left:11%; top:25%;" ondrop="drop006(event)" ondragover="allowDrop001(event)" id="place001">&nbsp;&nbsp;&nbsp;&nbsp;STEP 1:&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    
+        <div class="btn btn-5" style = "position:absolute; left:11%; top:35%;" ondrop="drop007(event)" ondragover="allowDrop002(event)" id="place002">&nbsp;&nbsp;&nbsp;&nbsp;STEP 2:&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    
+        <div class="btn btn-5" style = "position:absolute; left:11%; top:45%;" ondrop="drop008(event)" ondragover="allowDrop003(event)" id="place003">&nbsp;&nbsp;&nbsp;&nbsp;STEP 3:&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    
+        <div class="btn btn-5" style = "position:absolute; left:11%; top:55%;" ondrop="drop009(event)" ondragover="allowDrop004(event)" id="place004">&nbsp;&nbsp;&nbsp;&nbsp;STEP 4:&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    
+        <div class="btn btn-5" style = "position:absolute; left:11%; top:65%;" ondrop="drop010(event)" ondragover="allowDrop005(event)" id="place005">&nbsp;&nbsp;&nbsp;&nbsp;STEP 5:&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    
+    </div>
+</section>
+
+<div class = "btnTrain">
+    <a href="MOCKtrainT3.html#main"><img src="BACKGROUNDS/trainNext.png" style="width:80px; height:80px;position: absolute; right: 5%; top: 44%;"></a>
+</div>
+        
+        
+        <p id="message001"></p>
+    
+        <script>
+        var b = 0;
+        b++;
+    function dragStart001(event) {
+        event.dataTransfer.setData("choice001", event.target.id);
+    }
+    
+    function dragStart002(event) {
+        event.dataTransfer.setData("choice002", event.target.id);
+    }
+    
+    function dragStart003(event) {
+        event.dataTransfer.setData("choice003", event.target.id);
+    }
+    
+    function dragStart004(event) {
+        event.dataTransfer.setData("choice004", event.target.id);
+    }
+    
+    function dragStart005(event) {
+        event.dataTransfer.setData("choice005", event.target.id);
+    }
+    
+    function allowDrop001(event) {
+        event.preventDefault();
+    }
+    
+    function allowDrop002(event) {
+        event.preventDefault();
+    }
+    
+    function allowDrop003(event) {
+        event.preventDefault();
+    }
+    
+    function allowDrop004(event) {
+        event.preventDefault();
+    }
+    
+    function allowDrop005(event) {
+        event.preventDefault();
+    }
+    
+    function drop006(event) {
+        var data = event.dataTransfer.getData("choice001");
+        event.target.appendChild(document.getElementById(data));
+    score001.innerHTML = b++;
+            place001.innerHTML = "Jerusalem";
+    }
+    
+    function drop007(event) {
+        var data = event.dataTransfer.getData("choice002");
+        event.target.appendChild(document.getElementById(data));
+    score001.innerHTML = b++;
+            place002.innerHTML = "Amman";
+    }
+    
+    function drop008(event) {
+        var data = event.dataTransfer.getData("choice003");
+        event.target.appendChild(document.getElementById(data));
+    score001.innerHTML = b++;
+            place003.innerHTML = "London";
+    }
+    
+    function drop009(event) {
+        var data = event.dataTransfer.getData("choice004");
+        event.target.appendChild(document.getElementById(data));
+    score001.innerHTML = b++;
+            place004.innerHTML = "Brasilia";
+    }
+    
+    function drop010(event) {
+        var data = event.dataTransfer.getData("choice005");
+        event.target.appendChild(document.getElementById(data));
+    score001.innerHTML = b++;
+            place005.innerHTML = "Ottawa";
+    }
+    
+    function drop001(event) {
+        event.preventDefault();
+    }
+    
+    function drop002(event) {
+        event.preventDefault();
+    }
+    
+    function drop003(event) {
+        event.preventDefault();
+    
+    }
+    
+    function drop004(event) {
+        event.preventDefault();
+    }
+    
+    function drop005(event) {
+        event.preventDefault();
+    }
+    
+    function submit001() {
+    if (b > 5) {
+    message001.innerHTML = "Congratulations.";
+    }
+    }
+        </script>   
+    
+  	</div>
+	
+      <div class="lastbg">
+            <div class = "footerDescription">© ALGO CAMP 2019</div>
+            <div class = "footerDisclaimer">ALGO CAMP IS  A PROJECT, BRINGING INFORMATION AND ASSESSMENT FROM THE CAMP AND ITS PARTNERS.</div>
+    </div>
+</body>
+</html>

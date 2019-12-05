@@ -35,7 +35,7 @@
 
 /*info vid/ commercial*/
 .panelinfovid {
-  background: url('BACKGROUNDS/infovid.png') no-repeat center; 
+  background: url('BACKGROUNDS/infovid1.png') no-repeat center; 
   background-size: cover;
   height: 800px;
   position: relative;
@@ -185,7 +185,7 @@
 .panellearn10 {
   background: url('BACKGROUNDS/panellearn10.png');
   background-size: cover;
-  height: 650px;
+  height: 800px;
   position: relative;
 }
 
@@ -196,30 +196,31 @@
   position: relative;
 }
 
-.da2{
-  background: url('BACKGROUNDS/da2.png');
-  height: 3080px; 
+.da21{
+  background: url('BACKGROUNDS/da21.png');
+  height: 800px; 
   background-position: center; 
   background-repeat: no-repeat; 
  background-size: cover;
 }
 
-.da2Step{
-  background: url('BACKGROUNDS/stepBG.png');
-  height: 430px; 
+.da22{
+  background: url('BACKGROUNDS/da22.png') no-repeat center;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+.da23{
+  background: url('BACKGROUNDS/da23.png');
+  height: 800px; 
   background-position: center; 
   background-repeat: no-repeat; 
  background-size: cover;
 }
 
-.da2Stepp{
-  background: url('BACKGROUNDS/stepBG.png');
-  height: 700px; 
-  width: 740px; 
-  background-position: center; 
-  background-repeat: no-repeat; 
- background-size: cover;
-}
 
 .da3 {
   background: url('BACKGROUNDS/da3.png');
@@ -239,7 +240,7 @@
 
 
 .panelAboutInfo {
-  background: url('BACKGROUNDS/ABOUTnew.png') no-repeat center; 
+  background: url('BACKGROUNDS/aboutInfo.png') no-repeat center; 
   background-size: cover;
   height: 800px;
   position: relative;
@@ -254,6 +255,183 @@
   background-repeat: no-repeat; 
  background-size: cover;
 }
+
+
+/* PANEL LEARN 7 */
+.panelLearn71 {
+  background: url('BACKGROUNDS/panelLEARN7 (1).png');
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+}
+
+.panelLearn72 {
+  background: url('BACKGROUNDS/panelLEARN7 (2).png');
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+}
+
+.panelLearn73 {
+  background: url('BACKGROUNDS/panelLEARN7 (3).png');
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+}
+
+
+/* PANEL LEARN 7 */
+.panelLearn81 {
+  background: url('BACKGROUNDS/panelLEARN8 (1).png');
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+}
+
+.panelLearn82 {
+  background: url('BACKGROUNDS/panelLEARN8 (2).png');
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+}
+
+.panelLearn83 {
+  background: url('BACKGROUNDS/panelLEARN8 (3).png') no-repeat center;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+
+.panelLearn84 {
+  background: url('BACKGROUNDS/panelLEARN8 (4).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+.panelLearn841 {
+  background: url('BACKGROUNDS/panelLEARN8 (41).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+.panelLearn85 {
+  background: url('BACKGROUNDS/panelLEARN8 (5).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+.panelLearn86 {
+  background: url('BACKGROUNDS/panelLEARN8 (6).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+
+
+
+
+.panelTrain2 {
+  background: url('BACKGROUNDS/panelTrain2.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.panelTrain21 {
+  background: url('BACKGROUNDS/panelTrain21.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.panelTrain23 {
+  background: url('BACKGROUNDS/panelTrain2.gif') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+
+
+
+.T1 {
+  background: url('BACKGROUNDS/T1.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.T2 {
+  background: url('BACKGROUNDS/T2.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.T3 {
+  background: url('BACKGROUNDS/T3.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.T4 {
+  background: url('BACKGROUNDS/T4.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.T5 {
+  background: url('BACKGROUNDS/T5.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.T6 {
+  background: url('BACKGROUNDS/T6.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.T11 {
+  background: url('BACKGROUNDS/T11.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.T12 {
+  background: url('BACKGROUNDS/T12.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+
+
 
 
 

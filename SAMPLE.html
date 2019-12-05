@@ -16,8 +16,6 @@
   <link rel="stylesheet" href="MOCKtext.css">
   <link rel="stylesheet" href="MOCKp3-button.css">
   <link rel="stylesheet" href="MOCKvideos.css">
-  <link rel="stylesheet" href="MOCKinfoVideoSpan.css">
-
   <title>
     Algo Camp
   </title>
@@ -46,62 +44,64 @@
 
   <div class="panelinfovid">
  
-    <a class="toggle" href="#example" onclick="playPause()" style ="position: absolute; right: 49%; top: 31%; font-size: 14px; color: #8d13fe; padding: 5px;">x</a>
- 
-  <div class="toggle-content" id="example"  style ="position: absolute; right: 20%; top: 40%;">
-    <video loop width="750" id = "info">
-      <source src="BACKGROUNDS/PANEL2.mp4" type="video/mp4" >
-    </video>
-  </div>
-     
-  
-            
-    </div>        
-    <script> 
-      var myVideo = document.getElementById("info"); 
-      
-      function playPause() { 
-        if (myVideo.paused) 
-          myVideo.play(); 
-        else 
-          myVideo.pause(); 
-      } 
-      </script> 
+      <a class="toggle" href="#example" onclick="playPause()" style ="position: absolute; right: 49%; top: 31%; font-size: 14px; color: #8d13fe; padding: 5px;">x</a>
+   
+    <div class="toggle-content" id="example"  style ="position: absolute; right: 20%; top: 40%;">
+      <video loop width="750" id = "info">
+        <source src="BACKGROUNDS/PANEL2.mp4" type="video/mp4" >
+      </video>
+    </div>
+       
+    
+              
+      </div>        
+      <script> 
+        var myVideo = document.getElementById("info"); 
+        
+        function playPause() { 
+          if (myVideo.paused) 
+            myVideo.play(); 
+          else 
+            myVideo.pause(); 
+        } 
+        </script> 
 
 <script> 
 // Show an element
 var show = function (elem) {
-elem.classList.add('is-visible');
+	elem.classList.add('is-visible');
 };
 
 // Hide an element
 var hide = function (elem) {
-elem.classList.remove('is-visible');
+	elem.classList.remove('is-visible');
 };
 
 // Toggle element visibility
 var toggle = function (elem) {
-elem.classList.toggle('is-visible');
+	elem.classList.toggle('is-visible');
 };
 
 // Listen for click events
 document.addEventListener('click', function (event) {
 
-// Make sure clicked element is our toggle
-if (!event.target.classList.contains('toggle')) return;
+	// Make sure clicked element is our toggle
+	if (!event.target.classList.contains('toggle')) return;
 
-// Prevent default link behavior
-event.preventDefault();
+	// Prevent default link behavior
+	event.preventDefault();
 
-// Get the content
-var content = document.querySelector(event.target.hash);
-if (!content) return;
+	// Get the content
+	var content = document.querySelector(event.target.hash);
+	if (!content) return;
 
-// Toggle the content
-toggle(content);
+	// Toggle the content
+	toggle(content);
 
 }, false);
-</script>
+  </script>
+
+
   
   
   
@@ -214,8 +214,12 @@ toggle(content);
 
   
   <div class="lastbg">
+   
+    
+	
           <div class = "footerDescription">© ALGO CAMP 2019</div>
           <div class = "footerDisclaimer">ALGO CAMP IS  A PROJECT, BRINGING INFORMATION AND ASSESSMENT FROM THE CAMP AND ITS PARTNERS.</div>
+		
   </div>
 </body>
 </html>

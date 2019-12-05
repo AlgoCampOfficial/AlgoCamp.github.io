@@ -2,7 +2,7 @@
 <html>
 <link rel="shortcut icon" href="HAC/MOCK.ico">
 <head>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="mockbg.css">
   <link rel="stylesheet" href="MOCKnavigator.css">
   <link rel="stylesheet" href="article.css">
@@ -41,11 +41,13 @@
   </div>
   
   <div class="LEARNpanel" id = "map_learn">
-   
+    <div class = "btnTrain">
+      <a onclick="playPause()" href="#LEARNpanel1"><img src="BACKGROUNDS/boat.png" style="width:145px; height:83px;position: absolute; right: 35%; top: 62%;"></a>
+    </div>
 
-</div>
+  </div>
 
-  <div class="LEARNpanel1">
+  <div class="LEARNpanel1" id = "LEARNpanel1">
       <!-- BUTTON | WHAT IS ALGORITHM -->
       <a href="MOCKlearn1.html#panel_learn1" class="btnfos2 btnfos-2 effect-shine" style="position: absolute; right: 14%; top: 51%;">
         <svg>
@@ -82,6 +84,32 @@
     
   </div>
   
+
+  <div class="panelinfovid">
+
+    <video loop width="700" id = "info" style ="position: absolute; top: 25%;">
+      <source src="BACKGROUNDS/PANEL2.mp4" type="video/mp4" >
+    </video>
+    <a onclick="playPause()" class="btnfos3 btnfos-3 effect-shine" style="position: absolute; right: 5%; top: 61%;">
+    
+      <svg>
+        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+      </svg>
+      PLAY VIDEO
+    </a> 
+
+<script> 
+  var myVideo = document.getElementById("info"); 
+  
+  function playPause() { 
+    if (myVideo.paused) 
+      myVideo.play(); 
+    else 
+      myVideo.pause(); 
+  } 
+  </script> 
+
+</div>
     <div class="lastbg">
    
     
