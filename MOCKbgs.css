@@ -57,13 +57,35 @@
   position: relative;
 }
 
-.panel51 {
-  background: url('BACKGROUNDS/panel7.png') no-repeat center; 
+
+/*WHAT IS ALGORITHM*/
+.panelLearn12 {
+  background: url('BACKGROUNDS/panelLEARN1 (1).png') no-repeat center; 
   background-size: cover;
   height: 800px;
   position: relative;
 }
 
+.panelLearn13 {
+  background: url('BACKGROUNDS/panelLEARN1 (2).png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.panelLearn14 {
+  background: url('BACKGROUNDS/panelLEARN1 (3).png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
+
+.panelLearn15 {
+  background: url('BACKGROUNDS/panelLEARN1 (4).png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
 
 
 /*general white panel*/
@@ -272,6 +294,7 @@
   background-position: center; 
   background-repeat: no-repeat; 
  background-size: cover;
+ position: relative;
 }
 
 .panelLearn73 {
@@ -280,6 +303,7 @@
   background-position: center; 
   background-repeat: no-repeat; 
  background-size: cover;
+ position: relative;
 }
 
 
@@ -348,6 +372,251 @@
 
 
 
+.panelLearn3 {
+  background: url('BACKGROUNDS/panelLEARN3 (main).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+.panelLearn31 {
+  background: url('BACKGROUNDS/panelLEARN3 (1).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+.panelLearn32 {
+  background: url('BACKGROUNDS/panelLEARN3 (2).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+.panelLearn33 {
+  background: url('BACKGROUNDS/panelLEARN3 (3).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+.panelLearn34 {
+  background: url('BACKGROUNDS/panelLEARN3 (4).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+
+
+
+
+
+
+.panelLearn4main {
+  background: url('BACKGROUNDS/panelLEARN4 (main).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+/*SIMPLE ALGORITHM*/
+.panelLearn41 {
+  background: url('BACKGROUNDS/panelLEARN4 (1).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+.panelLearn411 {
+  background: url('BACKGROUNDS/panelLEARN41 (1).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+.panelLearn412 {
+  background: url('BACKGROUNDS/panelLEARN41 (2).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+
+/*BACKTRACKING ALGORITHM*/
+.panelLearn42 {
+  background: url('BACKGROUNDS/panelLEARN4 (2).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+.panelLearn421 {
+  background: url('BACKGROUNDS/panelLEARN42 (1).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+
+
+/*DIVIDE AND CONQUER ALGORITHM*/
+
+.panelLearn43 {
+  background: url('BACKGROUNDS/panelLEARN4 (3).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+.panelLearn431 {
+  background: url('BACKGROUNDS/panelLEARN43 (1).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+/*DYNAMIN ALGORITHM*/
+
+.panelLearn44 {
+  background: url('BACKGROUNDS/panelLEARN4 (4).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+.panelLearn441 {
+  background: url('BACKGROUNDS/panelLEARN44 (1).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+
+
+/*GREEDY ALGORITHM*/
+
+.panelLearn45 {
+  background: url('BACKGROUNDS/panelLEARN4 (5).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+.panelLearn451 {
+  background: url('BACKGROUNDS/panelLEARN45 (1).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+
+/*BACKTRACKING ALGORITHM*/
+
+.panelLearn46 {
+  background: url('BACKGROUNDS/panelLEARN4 (6).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+.panelLearn461 {
+  background: url('BACKGROUNDS/panelLEARN46 (1).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+
+
+/*BACKTRACKING ALGORITHM*/
+
+.panelLearn47 {
+  background: url('BACKGROUNDS/panelLEARN4 (7).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+.panelLearn471 {
+  background: url('BACKGROUNDS/panelLEARN47 (1).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+.panelLearn472 {
+  background: url('BACKGROUNDS/panelLEARN47 (2).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+
+
+/*BACKTRACKING ALGORITHM*/
+
+.panelLearn48 {
+  background: url('BACKGROUNDS/panelLEARN4 (8).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+.panelLearn481 {
+  background: url('BACKGROUNDS/panelLEARN48 (1).png') no-repeat center;;
+  height: 800px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+ background-size: cover;
+ position: relative;
+}
+
+
+
+
 
 
 .panelTrain2 {
@@ -373,6 +642,13 @@
 
 
 
+
+.panelT {
+  background: url('BACKGROUNDS/T.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+}
 
 .T1 {
   background: url('BACKGROUNDS/T1.png') no-repeat center; 
