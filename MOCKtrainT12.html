@@ -109,6 +109,9 @@
     
         <div class="btn btn-5" style = "position:absolute; left:11%; top:79%; font-size:12px;" ondrop="drop0018(event)" ondragover="allowDrop009(event)" id="place009">&nbsp;&nbsp;&nbsp;&nbsp;STEP 9:&nbsp;&nbsp;&nbsp;&nbsp;</div>
     
+        <div class = "btnTrain">
+                <a onclick="play()" href="#end"><img src="BACKGROUNDS/trainNext.png" style="width:80px; height:80px;position: absolute; right: 5%; top: 44%;"></a>
+        </div>
     </div>
 </section>
         
@@ -301,7 +304,25 @@
     }
         </script>   
     
-  	</div>
+      </div>
+      
+      <div id = end>
+    <video loop id="myVideo" width="1263">
+        <source src="BACKGROUNDS/end.mp4" type="video/mp4">
+      </video>
+
+      <script> 
+            var homeSelect = document.getElementById("myVideo"); 
+            
+            function play() { 
+              if (homeSelect.paused) 
+              homeSelect.play(); 
+              else 
+              homeSelect.pause(); 
+            } 
+            </script>
+    </div>
+
 	
       <div class="lastbg">
             <div class = "footerDescription">© ALGO CAMP 2019</div>

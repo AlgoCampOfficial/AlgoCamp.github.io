@@ -45,6 +45,23 @@
       <a onclick="playPause()" href="#LEARNpanel1"><img src="BACKGROUNDS/boat.png" style="width:145px; height:83px;position: absolute; right: 35%; top: 62%;"></a>
     </div>
 
+    <audio loop id = "audio">
+        <source src="HAC\Learn_boat.mp3" type="audio/mpeg">
+        </audio>
+    </div>        
+  </div>      
+      
+    <script> 
+      var homeSelect = document.getElementById("audio"); 
+      
+      function playPause() { 
+        if (homeSelect.paused) 
+        homeSelect.play(); 
+        else 
+        homeSelect.pause(); 
+      } 
+      </script> 
+
   </div>
 
   <div class="LEARNpanel1" id = "LEARNpanel1">
@@ -121,31 +138,7 @@
   </div>
   
 
-  <div class="panelinfovid">
-
-    <video loop width="700" id = "info" style ="position: absolute; top: 25%;">
-      <source src="BACKGROUNDS/PANEL2.mp4" type="video/mp4" >
-    </video>
-    <a onclick="playPause()" class="btnfos3 btnfos-3 effect-shine" style="position: absolute; right: 5%; top: 61%;">
-    
-      <svg>
-        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-      </svg>
-      PLAY VIDEO
-    </a> 
-
-<script> 
-  var myVideo = document.getElementById("info"); 
   
-  function playPause() { 
-    if (myVideo.paused) 
-      myVideo.play(); 
-    else 
-      myVideo.pause(); 
-  } 
-  </script> 
-
-</div>
     <div class="lastbg">
    
     

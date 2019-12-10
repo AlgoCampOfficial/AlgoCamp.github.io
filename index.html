@@ -2,7 +2,7 @@
 <html>
 <link rel="shortcut icon" href="HAC/MOCK.ico">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="mockbg.css">
   <link rel="stylesheet" href="MOCKnavigator.css">
   <link rel="stylesheet" href="MOCKSlideShow.css">
@@ -15,8 +15,7 @@
   <link rel="stylesheet" href="MOCKfooter.css">
   <link rel="stylesheet" href="MOCKtext.css">
   <link rel="stylesheet" href="MOCKp3-button.css">
-  <link rel="stylesheet" href="MOCKvideos.css">
-  <link rel="stylesheet" href="MOCKinfoVideoSpan.css">
+  <link rel="stylesheet" href="MOCKfigure.css">
 
   <title>
     Algo Camp
@@ -24,198 +23,19 @@
 
 </head>
 
-
+<center><meta name="viewport" content="width=device-width, initial-scale=1">
 <body bgcolor = #ffffff>
-  
-  
-  <!-- PANEL 1 / HEADER -->
-  <div class="fifthbgg"> 
-    <br>
-    <div class = "MOCKnavigator">
-      <ul>
-        <li><a href="MOCK.html" class="effect-shine">HOME</a></li>
-          <li><a href="MOCKabout.html#welcome_about" class="effect-shine">ABOUT</a></li>
-          <li><a href="MOCKlearn.html#map_learn" class="effect-shine">LEARN</a></li>
-          <li><a href="MOCKvideos.html#panel_videos" class="effect-shine">VIDEOS</a></li>
-          <li><a href="MOCKtrain.html#welcome_train" class="effect-shine">TRAIN</a></li>
-      </ul>
-    </div>
 
-  </div>
-  
+  <video autoplay muted loop id="myVideo" width="1263">
+    <source src="BACKGROUNDS/welcome.mp4" type="video/mp4">
+  </video>
 
-  <div class="panelinfovid">
- 
-    <a class="toggle" href="#example" onclick="playPause()" style ="position: absolute; right: 49%; top: 31%; font-size: 14px; color: #8d13fe; padding: 5px;">x</a>
- 
-  <div class="toggle-content" id="example"  style ="position: absolute; right: 20%; top: 40%;">
-    <video loop width="750" id = "info">
-      <source src="BACKGROUNDS/PANEL2.mp4" type="video/mp4" >
-    </video>
-  </div>
-     
-  
-            
-    </div>        
-    <script> 
-      var myVideo = document.getElementById("info"); 
-      
-      function playPause() { 
-        if (myVideo.paused) 
-          myVideo.play(); 
-        else 
-          myVideo.pause(); 
-      } 
-      </script> 
+  <a href="MOCK.html" class="btnfos btnfos-10 effect-shine" style="position: absolute; right: 41%; top: 70%;">
+    <svg>
+      <rect x="0" y="0" fill="none" width="100%" height="100%"/>
+    </svg>
+   ENTER CAMP
+</a> 
 
-<script> 
-// Show an element
-var show = function (elem) {
-elem.classList.add('is-visible');
-};
-
-// Hide an element
-var hide = function (elem) {
-elem.classList.remove('is-visible');
-};
-
-// Toggle element visibility
-var toggle = function (elem) {
-elem.classList.toggle('is-visible');
-};
-
-// Listen for click events
-document.addEventListener('click', function (event) {
-
-// Make sure clicked element is our toggle
-if (!event.target.classList.contains('toggle')) return;
-
-// Prevent default link behavior
-event.preventDefault();
-
-// Get the content
-var content = document.querySelector(event.target.hash);
-if (!content) return;
-
-// Toggle the content
-toggle(content);
-
-}, false);
-</script>
-  
-  
-  
-
-
-
-  <!-- PANEL 4 -->
-  <div class="panel4">
-    <a href = "MOCKlearn.html#map_learn" class="btnfos4 btnfos-4 effect-shine" style="position: absolute; right: 43%; top: 60%;">
-    
-      <svg>
-        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-      </svg>
-      JOIN
-    </a> 
-  </div>
-
-
-  
-
-
-  
-  <!-- PANEL 3 -->
-  <div class="panel3">
-
-    <a  href="MOCKlearn.html#map_learn"  class="btnfos btnfos-1 effect-shine" style="position: absolute; right: 72%; top: 77%;">
-        <svg>
-          <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-        </svg>
-        LEARN
-    </a> 
-
-  <!-- BUTTON | VIDEOS -->
-  <a href="MOCKvideos.html#panel_videos" class="btnfos btnfos-1 effect-shine" style="position: absolute; right: 41%; top: 77%;">
-      <svg>
-        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-      </svg>
-     VIDEO
-  </a> 
-  
-  <!-- BUTTON | TRAIN -->
-  <a href="MOCKtrain.html#welcome_train" class="btnfos btnfos-1 effect-shine" style="position: absolute; right: 11%; top: 77%;">
-      <svg>
-        <rect x="0" y="0" fill="none" width="100%" height="100%"/>
-      </svg>
-     TRAIN
-  </a> 
-
-  <!-- DESCRIPTION -->
-  <div class = "description">
-    <!-- DESCRIPTION | LEARN -->
-    <p style = "position: absolute; right: 70%; top: 40%; width:292px; font-size:1vw">Learn from simple to complex concepts about algorithm as you go along within the camp. Take those concepts as a guide to get through the training. Thus, this will possibly enable you to make an efficient algorithm for a program.</p>
-    <p style = "position: absolute; right: 70%; top: 57%; width:290px; font-size:1vw">Learn what is algorithm, the importance of it in programming, and how to write a well-structured algorithm. Hence, a foundation is going to be made as you venture throughout the camp.</p>
-  
-  <!-- DESCRIPTION | VIDEO -->
-      <p style = "position: absolute; right: 39%; top: 40%; width:290px; font-size:1vw">Watch a dozen of videos to test your algorithm creation and skills. This section will enable you to visualize to how the simulation of an algorithm will take place when the computer is running a program.</p>
-      <p style = "position: absolute; right: 39%; top: 57%; width:295px; font-size:1vw">The videos range from simple to complex simulations that will let you to visualize the program that you are going to make. Thus, this will let you to think simpler of the execution yet complex on the algorithm.</p>
-  
-  <!-- DESCRIPTION | VIDEO -->
-    <p style = "position: absolute; right: 8%; top: 40%; width:290px; font-size:1vw">Put your knowledge to the test and see if you got what it takes to survive the camp. Quizzes and algorithm formation may help you to understand more about yourself and the lessons that you have been through.</p>
-    <p style = "position: absolute; right: 8%; top: 57%; width:290px; font-size:1vw">Learn from simple to complex concepts about algorithm you go along within the camp. Take those concepts as a guide to get through the training. Thus, this will possibly enable you to make an efficient algorithm for a program.</p>
-  
-</div>
-
-</div>
-
-
-
-<!-- PANEL 2 -->
-<div class="slideshow-container">
-
-  <!-- SLIDE 1 -->
-  <div class="mySlides fade">
-    <img src="whatis.gif" style="width:100%">
-  </div>
-
-  <!-- SLIDE 2 -->
-  <div class="mySlides fade">
-    <img src="whatis1.gif" style="width:100%">
-  </div>
-
-  <!-- SLIDE 3 -->
-  <div class="mySlides fade">
-    <img src="whatis2.gif" style="width:100%">
-  </div>
-
-</div><br>
-
-<!-- PANEL 2 | SLIDE SCRIPT -->
-<script>
-  var slideIndex = 0;
-  Panel2();
-
-  function Panel2() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-
-    slides[slideIndex-1].style.display = "block";  
-  
-    setTimeout(Panel2, 3000);
-  }
-</script>
-
-
-
-  
-  <div class="lastbg">
-          <div class = "footerDescription">© ALGO CAMP 2019</div>
-          <div class = "footerDisclaimer">ALGO CAMP IS  A PROJECT, BRINGING INFORMATION AND ASSESSMENT FROM THE CAMP AND ITS PARTNERS.</div>
-  </div>
-</body>
+</body></center>
 </html>

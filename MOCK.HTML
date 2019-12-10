@@ -50,13 +50,11 @@
  
   <div class="toggle-content" id="example"  style ="position: absolute; right: 20%; top: 40%;">
     <video loop width="750" id = "info">
-      <source src="BACKGROUNDS/PANEL2.mp4" type="video/mp4" >
+      <source src="BACKGROUNDS/PANEL2WVOICE.mp4" type="video/mp4" >
     </video>
-  </div>
-     
-  
-            
-    </div>        
+  </div>        
+    </div>      
+      
     <script> 
       var myVideo = document.getElementById("info"); 
       
@@ -110,22 +108,37 @@ toggle(content);
 
   <!-- PANEL 4 -->
   <div class="panel4">
-    <a href = "MOCKlearn.html#map_learn" class="btnfos4 btnfos-4 effect-shine" style="position: absolute; right: 43%; top: 60%;">
+    <a href = "#panel3" onclick="play()" class="btnfos4 btnfos-4 effect-shine" style="position: absolute; right: 43%; top: 60%;">
     
       <svg>
         <rect x="0" y="0" fill="none" width="100%" height="100%"/>
       </svg>
       JOIN
     </a> 
+
+    <audio loop id = "audio">
+        <source src="HAC\HomeSelect.mp3" type="audio/mpeg">
+        </audio>
+  </div>        
+    </div>      
+      
+    <script> 
+      var homeSelect = document.getElementById("audio"); 
+      
+      function play() { 
+        if (homeSelect.paused) 
+        homeSelect.play(); 
+        else 
+        homeSelect.pause(); 
+      } 
+      </script> 
+    
   </div>
 
 
   
-
-
-  
   <!-- PANEL 3 -->
-  <div class="panel3">
+  <div class="panel3" id = panel3>
 
     <a  href="MOCKlearn.html#map_learn"  class="btnfos btnfos-1 effect-shine" style="position: absolute; right: 72%; top: 77%;">
         <svg>
